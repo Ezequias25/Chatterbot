@@ -1,0 +1,99 @@
+﻿# Base de datos de peliculas - ChatterBot V3
+
+La misma informacion que el archivo peliculas.txt pero en tabla, para leer/convertir facil (Word, Excel, PDF).
+
+| Titulo | Director | Genero | Actores | Anio | Franquicia | Etiquetas | Ingresos (USD M) | Vistas (M) | TotalSaga |
+|---|---|---|---|---|---|---|---|---|---|
+Spider-Man | Sam Raimi | accion, aventura | Tobey Maguire, Kirsten Dunst | 2002 | spiderman | arana, heroe, poder, nueva york, mordida, tia may | 821 | 144 | 10
+Spider-Man 2 | Sam Raimi | accion, aventura | Tobey Maguire, Kirsten Dunst | 2004 | spiderman | doc ock, heroe, nueva york, identidad | 789 | 134 | 10
+Spider-Man 3 | Sam Raimi | accion, aventura | Tobey Maguire, Kirsten Dunst | 2007 | spiderman | simbiote, traje negro, tres enemigos | 894 | 156 | 10
+The Amazing Spider-Man | Marc Webb | accion, aventura | Andrew Garfield, Emma Stone | 2012 | spiderman | lagarto, heroe, mordida, reencuentro | 758 | 131 | 10
+The Amazing Spider-Man 2 | Marc Webb | accion, aventura | Andrew Garfield, Emma Stone | 2014 | spiderman | electro, duende, heroe, mordida | 709 | 122 | 10
+Spider-Man: Homecoming | Jon Watts | accion, aventura | Tom Holland, Robert Downey Jr. | 2017 | spiderman | adolescente, iron man, escuela, vengadores | 880 | 211 | 10
+Spider-Man: Far From Home | Jon Watts | accion, aventura | Tom Holland, Jake Gyllenhaal | 2019 | spiderman | europa, vacaciones, misterio, elemento | 1132 | 295 | 10
+Spider-Man: No Way Home | Jon Watts | accion, aventura | Tom Holland, Zendaya | 2021 | spiderman | multiverso, nostalgia, tres portales | 1922 | 412 | 10
+Batman Begins | Christopher Nolan | accion, aventura, drama | Christian Bale, Michael Caine | 2005 | batman | murcielago, origen, gotica, miedo, entrenamiento | 374 | 98 | 10
+The Dark Knight | Christopher Nolan | accion, crimen, drama | Christian Bale, Heath Ledger | 2008 | batman | joker, caos, heroe, gotica, dos caras | 1006 | 266 | 10
+The Dark Knight Rises | Christopher Nolan | accion, aventura, drama | Christian Bale, Tom Hardy | 2012 | batman | bane, caida, leyenda, gotica | 1081 | 235 | 10
+The Terminator | James Cameron | accion, sci-fi | Arnold Schwarzenegger, Linda Hamilton | 1984 | terminator | maquina, viaje en el tiempo, futuro, hielo | 78 | 34 | 6
+Terminator 2: Judgment Day | James Cameron | accion, sci-fi | Arnold Schwarzenegger, Linda Hamilton | 1991 | terminator | t-800, t-1000, proteccion, futuro | 522 | 110 | 6
+Terminator 3: Rise of the Machines | Jonathan Mostow | accion, sci-fi | Arnold Schwarzenegger, Nick Stahl | 2003 | terminator | ascension, tx, futuro | 433 | 89 | 6
+Terminator: Dark Fate | Tim Miller | accion, sci-fi | Linda Hamilton, Arnold Schwarzenegger | 2019 | terminator | destino, rev-8, futuro | 261 | 47 | 6
+The Lord of the Rings: The Fellowship of the Ring | Peter Jackson | aventura, fantasia | Elijah Wood, Ian McKellen | 2001 | lotr | anillo, hermanos, elfos, enanos, orcos | 887 | 170 | 3
+The Lord of the Rings: The Two Towers | Peter Jackson | aventura, fantasia | Elijah Wood, Viggo Mortensen | 2002 | lotr | ent, guerra, gollum | 949 | 180 | 3
+The Lord of the Rings: The Return of the King | Peter Jackson | aventura, fantasia | Elijah Wood, Viggo Mortensen | 2003 | lotr | anillo, montana, rey, final | 1147 | 230 | 3
+The Hobbit: An Unexpected Journey | Peter Jackson | aventura, fantasia | Martin Freeman, Ian McKellen | 2012 | hobbit | enanos, viaje, dragon, tesoro | 1021 | 200 | 3
+The Hobbit: The Desolation of Smaug | Peter Jackson | aventura, fantasia | Martin Freeman, Ian McKellen | 2013 | hobbit | smaug, lago, enanos | 958 | 185 | 3
+The Hobbit: The Battle of the Five Armies | Peter Jackson | aventura, fantasia | Martin Freeman, Richard Armitage | 2014 | hobbit | batalla, enanos, final | 962 | 190 | 3
+Harry Potter and the Sorcerer's Stone | Chris Columbus | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2001 | harry_potter | escuela, magia, varita, gryffindor | 1018 | 220 | 8
+Harry Potter and the Chamber of Secrets | Chris Columbus | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2002 | harry_potter | serpiente, camara, magia | 879 | 180 | 8
+Harry Potter and the Prisoner of Azkaban | Alfonso Cuaron | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2004 | harry_potter | prisionero, lupin, patronus | 797 | 165 | 8
+Harry Potter and the Goblet of Fire | Mike Newell | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2005 | harry_potter | torneo, dragon de fuego, cetro | 897 | 185 | 8
+Harry Potter and the Order of the Phoenix | David Yates | fantasia, drama | Daniel Radcliffe, Emma Watson | 2007 | harry_potter | orden, umbridge, profecia | 942 | 200 | 8
+Harry Potter and the Half-Blood Prince | David Yates | fantasia, drama | Daniel Radcliffe, Emma Watson | 2009 | harry_potter | horrocrux, pocima, dumbledore | 934 | 195 | 8
+Harry Potter and the Deathly Hallows: Part 1 | David Yates | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2010 | harry_potter | horrocrux, exilio, carpa | 960 | 200 | 8
+Harry Potter and the Deathly Hallows: Part 2 | David Yates | fantasia, aventura | Daniel Radcliffe, Emma Watson | 2011 | harry_potter | batalla, hogwarts, horrocrux, final | 1342 | 280 | 8
+Jurassic Park | Steven Spielberg | aventura, sci-fi | Sam Neill, Laura Dern | 1993 | jurassic | dinosaurios, isla, tiranosaurio, parque | 1033 | 220 | 6
+The Lost World: Jurassic Park | Steven Spielberg | aventura, sci-fi | Jeff Goldblum, Julianne Moore | 1997 | jurassic | dinosaurios, isla sorna, raptores | 618 | 135 | 6
+Jurassic Park III | Joe Johnston | aventura, sci-fi | Sam Neill, William H. Macy | 2001 | jurassic | dinosaurios, rescate, isla | 369 | 80 | 6
+Jurassic World | Colin Trevorrow | aventura, sci-fi | Chris Pratt, Bryce Dallas Howard | 2015 | jurassic | parque, indominus, dinosaurios | 1671 | 360 | 6
+Jurassic World: Fallen Kingdom | J.A. Bayona | aventura, sci-fi | Chris Pratt, Bryce Dallas Howard | 2018 | jurassic | volcan, rescate, dinosaurios | 1310 | 285 | 6
+Jurassic World Dominion | Colin Trevorrow | aventura, sci-fi | Chris Pratt, Bryce Dallas Howard | 2022 | jurassic | dinosaurios, mundo, giganotosaurio | 1004 | 215 | 6
+The Fast and the Furious | Rob Cohen | accion, crimen | Vin Diesel, Paul Walker | 2001 | autos | carreras, autos, calle, tuning | 207 | 45 | 11
+2 Fast 2 Furious | John Singleton | accion, crimen | Paul Walker, Tyrese Gibson | 2003 | autos | carreras, autos, miami | 236 | 51 | 11
+Fast & Furious | Justin Lin | accion, crimen | Vin Diesel, Paul Walker | 2009 | autos | vuelta, autos, venganza | 360 | 75 | 11
+Fast Five | Justin Lin | accion, crimen | Vin Diesel, Dwayne Johnson | 2011 | autos | rio, robo, autos | 626 | 135 | 11
+Furious 7 | James Wan | accion, crimen | Vin Diesel, Paul Walker | 2015 | autos | aviones, autos, homenaje | 1516 | 310 | 11
+The Fate of the Furious | F. Gary Gray | accion, crimen | Vin Diesel, Dwayne Johnson | 2017 | autos | traicion, autos, moscu | 1236 | 260 | 11
+Fast X | Louis Leterrier | accion, crimen | Vin Diesel, Jason Momoa | 2023 | autos | dante, autos, final | 714 | 145 | 11
+John Wick | Chad Stahelski | accion, thriller | Keanu Reeves, Michael Nyqvist | 2014 | john_wick | perro, venganza, asesino, hotel | 86 | 30 | 4
+John Wick: Chapter 2 | Chad Stahelski | accion, thriller | Keanu Reeves, Laurence Fishburne | 2017 | john_wick | provocacion, asesino, roma | 171 | 58 | 4
+John Wick: Chapter 3 - Parabellum | Chad Stahelski | accion, thriller | Keanu Reeves, Halle Berry | 2019 | john_wick | caza, asesino, hotel | 327 | 105 | 4
+John Wick: Chapter 4 | Chad Stahelski | accion, thriller | Keanu Reeves, Donnie Yen | 2023 | john_wick | paris, asesino, final | 440 | 140 | 4
+Shrek | Andrew Adamson, Vicky Jenson | animacion, comedia | Mike Myers, Eddie Murphy | 2001 | dreamworks | ogro, burro que habla, princesa, pantano | 491 | 100 | 0
+Shrek 2 | Andrew Adamson, Kelly Asbury | animacion, comedia | Mike Myers, Eddie Murphy | 2004 | dreamworks | ogro, burro que habla, gato, reino | 950 | 195 | 0
+Shrek the Third | Chris Miller, Raman Hui | animacion, comedia | Mike Myers, Eddie Murphy | 2007 | dreamworks | ogro, burro que habla, heredero | 813 | 165 | 0
+Shrek Forever After | Mike Mitchell | animacion, comedia | Mike Myers, Eddie Murphy | 2010 | dreamworks | ogro, contrato, mundos | 752 | 155 | 0
+Kung Fu Panda | John Stevenson, Mark Osborne | animacion, comedia | Jack Black, Dustin Hoffman | 2008 | dreamworks | panda, kung fu, master, fideos | 632 | 130 | 0
+How to Train Your Dragon | Dean DeBlois, Chris Sanders | animacion, aventura | Jay Baruchel, Gerard Butler | 2010 | dreamworks | dragon, chimuelo, vikingo, vuelo | 495 | 102 | 0
+Toy Story | John Lasseter | animacion, aventura | Tom Hanks, Tim Allen | 1995 | pixar | juguetes, woody, buzz, espacio | 394 | 80 | 0
+Toy Story 3 | Lee Unkrich | animacion, aventura | Tom Hanks, Tim Allen | 2010 | pixar | juguetes, despedida, guarderia | 1067 | 220 | 0
+Coco | Lee Unkrich, Adrian Molina | animacion, aventura | Anthony Gonzalez, Gael Garcia Bernal | 2017 | pixar | muerte, familia, musica, dia de muertos | 807 | 175 | 0
+Inside Out | Pete Docter, Ronnie del Carmen | animacion, drama | Amy Poehler, Phyllis Smith | 2015 | pixar | emociones, alegria, tristeza, mente | 858 | 180 | 0
+Spirited Away | Hayao Miyazaki | animacion, fantasia | Rumi Hiiragi, Miyu Irino | 2001 | ghibli | espiritus, bano, chihiro, transformacion | 395 | 70 | 0
+My Neighbor Totoro | Hayao Miyazaki | animacion, familiar | Noriko Hidaka, Hitoshi Takagi | 1988 | ghibli | duende, bosque, ternura, infancia | 25 | 30 | 0
+Princess Mononoke | Hayao Miyazaki | animacion, fantasia | Yoji Matsuda, Yuriko Ishida | 1997 | ghibli | bosque, dioses, lobos, ecologia | 195 | 50 | 0
+Howl's Moving Castle | Hayao Miyazaki | animacion, fantasia | Chieko Baisho, Takuya Kimura | 2004 | ghibli | castillo, bruja, amor, hechizo | 236 | 60 | 0
+Iron Man | Jon Favreau | accion, sci-fi | Robert Downey Jr., Gwyneth Paltrow | 2008 | marvel | armadura, inventor, tony stark, taller | 585 | 135 | 34
+The Avengers | Joss Whedon | accion, aventura | Robert Downey Jr., Chris Evans | 2012 | marvel | equipo, loki, aliens, nueva york | 1519 | 340 | 34
+Avengers: Infinity War | Anthony Russo, Joe Russo | accion, sci-fi | Robert Downey Jr., Chris Evans | 2018 | marvel | thanos, guante, chasquido, mitad | 2052 | 452 | 34
+Avengers: Endgame | Anthony Russo, Joe Russo | accion, sci-fi | Robert Downey Jr., Chris Evans | 2019 | marvel | viaje en el tiempo, sacrificio, final, portal | 2798 | 610 | 34
+Black Panther | Ryan Coogler | accion, aventura | Chadwick Boseman, Michael B. Jordan | 2018 | marvel | wakanda, vibranium, pantera, rey | 1347 | 310 | 34
+Star Wars: Episode IV - A New Hope | George Lucas | accion, aventura, fantasia | Mark Hamill, Harrison Ford | 1977 | star_wars | jedi, fuerza, laser, espacio | 775 | 220 | 9
+Star Wars: Episode V - The Empire Strikes Back | Irvin Kershner | accion, aventura, fantasia | Mark Hamill, Harrison Ford | 1980 | star_wars | vader, revelacion, hoth | 538 | 145 | 9
+Star Wars: The Force Awakens | J.J. Abrams | accion, aventura, fantasia | Daisy Ridley, John Boyega | 2015 | star_wars | rey, kylo, droide, mapa | 2071 | 510 | 9
+Alien | Ridley Scott | terror, sci-fi | Sigourney Weaver, Tom Skerritt | 1979 | alien | xenomorfo, nave, espacio, pesadilla | 104 | 40 | 6
+Aliens | James Cameron | accion, sci-fi | Sigourney Weaver, Michael Biehn | 1986 | alien | xenomorfos, coloniales, ripley | 183 | 62 | 6
+Scream | Wes Craven | terror, misterio | Neve Campbell, Courteney Cox | 1996 | scream | ghostface, asesino, mascara, telofono | 173 | 50 | 6
+Saw | James Wan | terror, misterio | Tobin Bell, Leigh Whannell | 2004 | saw | rompecabezas, juego, trampa, serrucho | 104 | 34 | 10
+The Conjuring | James Wan | terror, sobrenatural | Vera Farmiga, Patrick Wilson | 2013 | conjuring | espiritus, casa embrujada, demonio, familia | 320 | 80 | 9
+Memento | Christopher Nolan | thriller, misterio | Guy Pearce, Carrie-Anne Moss | 2000 | - | memoria, amnesia, tatuajes, reverso | 40 | 15 | 0
+Se7en | David Fincher | thriller, crimen | Brad Pitt, Morgan Freeman | 1995 | - | pecados, asesino, lluvia, caja | 327 | 70 | 0
+The Silence of the Lambs | Jonathan Demme | thriller, crimen | Jodie Foster, Anthony Hopkins | 1991 | - | hannibal, canibal, agente | 273 | 60 | 0
+Titanic | James Cameron | drama, romance | Leonardo DiCaprio, Kate Winslet | 1997 | - | barco, iceberg, amor, hundimiento | 2264 | 520 | 0
+La La Land | Damien Chazelle | musical, romance | Ryan Gosling, Emma Stone | 2016 | - | jazz, suenos, piano, coreografia | 472 | 135 | 0
+Grease | Randal Kleiser | musical, romance | John Travolta, Olivia Newton-John | 1978 | - | colegio, baile, pinta, primavera | 396 | 110 | 0
+The Notebook | Nick Cassavetes | drama, romance | Ryan Gosling, Rachel McAdams | 2004 | - | amor, cartas, lluvia, memoria | 116 | 38 | 0
+The Matrix | Lana Wachowski, Lilly Wachowski | sci-fi, accion | Keanu Reeves, Laurence Fishburne | 1999 | matrix | pildora, simulacion, neo, zion | 468 | 118 | 4
+Inception | Christopher Nolan | sci-fi, accion | Leonardo DiCaprio, Joseph Gordon-Levitt | 2010 | - | suenos, trompo, niveles, limbo | 837 | 200 | 0
+Interstellar | Christopher Nolan | sci-fi, drama | Matthew McConaughey, Anne Hathaway | 2014 | - | agujero negro, espacio, amor, murph | 724 | 185 | 0
+Joker | Todd Phillips | drama, crimen | Joaquin Phoenix, Robert De Niro | 2019 | joker | payaso, gotham, locura, escalera | 1078 | 220 | 2
+Django Unchained | Quentin Tarantino | drama, accion | Jamie Foxx, Christoph Waltz | 2012 | - | esclavitud, venganza, cowboy, cazador | 426 | 102 | 0
+Inglourious Basterds | Quentin Tarantino | guerra, drama | Brad Pitt, Christoph Waltz | 2009 | - | nazis, guerrilla, cine, prisionera | 321 | 88 | 0
+Pulp Fiction | Quentin Tarantino | thriller, crimen | John Travolta, Samuel L. Jackson | 1994 | - | maletines, biblia, no lineal, hamburguesas | 214 | 65 | 0
+Forrest Gump | Robert Zemeckis | drama, romance | Tom Hanks, Robin Wright | 1994 | - | tonto, correr, historia, cajas | 678 | 190 | 0
+Cast Away | Robert Zemeckis | drama, aventura | Tom Hanks, Helen Hunt | 2000 | - | isla, pelota, soledad, supervivencia | 430 | 96 | 0
+School of Rock | Richard Linklater | comedia, musical | Jack Black, Joan Cusack | 2003 | musical | escuela, banda, rock, profesor | 131 | 42 | 0
+The Greatest Showman | Michael Gracey | musical, drama | Hugh Jackman, Zac Efron | 2017 | musical | circo, suenos, musica, espectaculo | 435 | 122 | 0
+The Pursuit of Happyness | Gabriele Muccino | drama, biografia | Will Smith, Jaden Smith | 2006 | - | padre, esfuerzo, ventas, sueno | 307 | 78 | 0
+
